@@ -1,0 +1,6 @@
+Flask==1.1.2
+google-cloud-datastore==1.13.2
+numpy
+sklearn
+pandas
+flask-cors
