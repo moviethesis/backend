@@ -27,7 +27,6 @@ def get_user_from_id(userID):
 
 def create_new_user():
     entity = datastore.Entity(key=datastore_client.key('user'))
-    # FIXME: We need to sort users into groups here.
     testGroup = get_and_create_group()
     entity.update({
         'createdAt': datetime.datetime.now(),
@@ -46,12 +45,13 @@ def create_new_user():
     return entity, entity.key.id
 
 
-def update_user(user, dataControl, age, country, gender):
+def update_user(user, dataControl, age, country, gender, profilic):
     user.update({
         'country': country,
         'age': age,
         'gender': gender,
-        'dataControl': dataControl
+        'dataControl': dataControl,
+        'profilic': profilic
     })
     datastore_client.put(user)
     return user
@@ -95,11 +95,36 @@ def get_and_create_group():
     return testGroup
 
 
+def increment_start_count():
+    key = datastore_client.key('testGroup', 'totalStart')
+    count = datastore_client.get(key)
+    newCount = count.get("count")
+    newCount += 1
+    count.update({'count': newCount})
+    datastore_client.put(count)
+
+
+def increment_finish_count():
+    key = datastore_client.key('testGroup', 'totalFinish')
+    count = datastore_client.get(key)
+    newCount = count.get("count")
+    newCount += 1
+    count.update({'count': newCount})
+    datastore_client.put(count)
+
+
 def store_selection(entity, selection):
     entity.update({
         'selectedMovies': selection
     })
     datastore_client.put(entity)
+
+
+def store_survey(user, survey):
+    user.update({
+        'survey': survey
+    })
+    datastore_client.put(user)
 
 
 @app.route('/')
@@ -110,8 +135,10 @@ def root():
         user = get_user_from_id(userID)
     if user == 0:
         user, userID = create_new_user()
+        increment_start_count()
     if user is None:
         user, userID = create_new_user()
+        increment_start_count()
 
     user.update({'userID': userID})
     res = jsonify(user)
@@ -133,7 +160,14 @@ def updateUserData():
         return jsonify("ERROR COULD NOT FIND USER")
 
     body = request.get_json()
-    user = update_user(user, body.get("dataControl"), body.get("age"), body.get("country"), body.get("gender"))
+    user = update_user(
+        user,
+        body.get("dataControl"),
+        body.get("age"),
+        body.get("country"),
+        body.get("gender"),
+        body.get('profilic')
+    )
     user.update({'userID': userID})
     res = jsonify(user)
     return res
@@ -146,6 +180,8 @@ def recommend():
         user = get_user_from_id(userID)
     else:
         # do errror handling
+        return jsonify("ERROR COULD NOT FIND USER")
+    if user is None:
         return jsonify("ERROR COULD NOT FIND USER")
 
     selected_movies = request.get_json().get('selectedMovies')
@@ -229,6 +265,27 @@ def recommend():
 
     res = jsonify(json_res)
     return res
+
+
+@app.route('/update-survey', methods=["POST"])
+def updateSurveyPost():
+    userID = request.headers.get('userID')
+    if userID and int(userID):
+        user = get_user_from_id(userID)
+    else:
+        # do errror handling
+        return jsonify("ERROR COULD NOT FIND USER")
+    if user is None:
+        return jsonify("ERROR COULD NOT FIND USER")
+
+    survey = request.get_json().get('survey')
+    if survey is None:
+        return jsonify("ERROR COULD NOT FIND SURVEY DATA")
+
+    store_survey(user, survey)
+    increment_finish_count()
+
+    return jsonify("OK")
 
 
 if __name__ == '__main__':
