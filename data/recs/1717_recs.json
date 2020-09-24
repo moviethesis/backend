@@ -1,1 +1,74 @@
-[{"movieId":1717.0,"title":"Green Mile, The (1999)","collaborative_similarity_score":1.0000002384,"content_similarity_score":1.0,"average_similarity_score":1.0000001192,"poster_path":"\/velWPhVMQeQKcxggNEU8YmIo52R.jpg"},{"movieId":79.0,"title":"Shawshank Redemption, The (1994)","collaborative_similarity_score":0.6639478803,"content_similarity_score":0.9667665362,"average_similarity_score":0.8153572083,"poster_path":"\/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg"},{"movieId":82.0,"title":"Forrest Gump (1994)","collaborative_similarity_score":0.6621208191,"content_similarity_score":0.9158961177,"average_similarity_score":0.7890084684,"poster_path":"\/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg"},{"movieId":203.0,"title":"Beautiful Mind, A (2001)","collaborative_similarity_score":0.6069736481,"content_similarity_score":0.9098499417,"average_similarity_score":0.7584117949,"poster_path":"\/mV4k9qlrdvECe4COBTN256FROR3.jpg"},{"movieId":326.0,"title":"Pay It Forward (2000)","collaborative_similarity_score":0.4937648475,"content_similarity_score":0.9315577149,"average_similarity_score":0.7126612812,"poster_path":"\/q5xZpLih6L5rAIcT5r6WYB6Os7F.jpg"},{"movieId":1001.0,"title":"Good Will Hunting (1997)","collaborative_similarity_score":0.4754521251,"content_similarity_score":0.9279085994,"average_similarity_score":0.7016803622,"poster_path":"\/ylagLHIbG0F1blqSFqY6pa56Omr.jpg"},{"movieId":17316.0,"title":"Kevin Hart: Seriously Funny (2010)","collaborative_similarity_score":0.4920573533,"content_similarity_score":0.8952108622,"average_similarity_score":0.6936341077,"poster_path":"\/xzmEzbqIS52IhfN7InU2KsljY04.jpg"},{"movieId":57952.0,"title":"Haphead (2015)","collaborative_similarity_score":0.4824847281,"content_similarity_score":0.9032746553,"average_similarity_score":0.6928796917,"poster_path":null},{"movieId":89.0,"title":"Schindler's List (1993)","collaborative_similarity_score":0.4545501471,"content_similarity_score":0.9310709238,"average_similarity_score":0.6928105354,"poster_path":"\/lKb6h6LURE33I3GRFYgHBUfjwSU.jpg"},{"movieId":2988.0,"title":"Memoirs of a Geisha (2005)","collaborative_similarity_score":0.4370830953,"content_similarity_score":0.9483796954,"average_similarity_score":0.6927313954,"poster_path":"\/pBwYsQaSTgnPphIy02DJjCF2cqs.jpg"}]
+[
+  {
+    "movieId": 1717,
+    "title": "Green Mile, The (1999)",
+    "collaborative_similarity_score": 1.0000002384,
+    "content_similarity_score": 1,
+    "average_similarity_score": 1.0000001192,
+    "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg"
+  },
+  {
+    "movieId": 79,
+    "title": "Shawshank Redemption, The (1994)",
+    "collaborative_similarity_score": 0.6639478803,
+    "content_similarity_score": 0.9667665362,
+    "average_similarity_score": 0.8153572083,
+    "poster_path": "/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg"
+  },
+  {
+    "movieId": 82,
+    "title": "Forrest Gump (1994)",
+    "collaborative_similarity_score": 0.6621208191,
+    "content_similarity_score": 0.9158961177,
+    "average_similarity_score": 0.7890084684,
+    "poster_path": "/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg"
+  },
+  {
+    "movieId": 203,
+    "title": "Beautiful Mind, A (2001)",
+    "collaborative_similarity_score": 0.6069736481,
+    "content_similarity_score": 0.9098499417,
+    "average_similarity_score": 0.7584117949,
+    "poster_path": "/mV4k9qlrdvECe4COBTN256FROR3.jpg"
+  },
+  {
+    "movieId": 326,
+    "title": "Pay It Forward (2000)",
+    "collaborative_similarity_score": 0.4937648475,
+    "content_similarity_score": 0.9315577149,
+    "average_similarity_score": 0.7126612812,
+    "poster_path": "/q5xZpLih6L5rAIcT5r6WYB6Os7F.jpg"
+  },
+  {
+    "movieId": 1001,
+    "title": "Good Will Hunting (1997)",
+    "collaborative_similarity_score": 0.4754521251,
+    "content_similarity_score": 0.9279085994,
+    "average_similarity_score": 0.7016803622,
+    "poster_path": "/ylagLHIbG0F1blqSFqY6pa56Omr.jpg"
+  },
+  {
+    "movieId": 17316,
+    "title": "Kevin Hart: Seriously Funny (2010)",
+    "collaborative_similarity_score": 0.4920573533,
+    "content_similarity_score": 0.8952108622,
+    "average_similarity_score": 0.6936341077,
+    "poster_path": "/xzmEzbqIS52IhfN7InU2KsljY04.jpg"
+  },
+  {
+    "movieId": 89,
+    "title": "Schindler's List (1993)",
+    "collaborative_similarity_score": 0.4545501471,
+    "content_similarity_score": 0.9310709238,
+    "average_similarity_score": 0.6928105354,
+    "poster_path": "/lKb6h6LURE33I3GRFYgHBUfjwSU.jpg"
+  },
+  {
+    "movieId": 2988,
+    "title": "Memoirs of a Geisha (2005)",
+    "collaborative_similarity_score": 0.4370830953,
+    "content_similarity_score": 0.9483796954,
+    "average_similarity_score": 0.6927313954,
+    "poster_path": "/pBwYsQaSTgnPphIy02DJjCF2cqs.jpg"
+  }
+]
