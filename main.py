@@ -38,23 +38,46 @@ def create_new_user():
         'country': 'NaN',
         'age': 0,
         'gender': 'NaN',
-        'dataControl': {
-            'useForRecommendations': True,
-            'useForImprovementsForOthers': True,
-            'useForSharing': True
-        }
+        'education': 'NaN',
+        'work': 'NaN',
+        'techknow': 'NaN',
+        'useForRecommendations': True,
+        'useForImprovementsForOthers': True,
+        'useForSharing': True,
     })
     datastore_client.put(entity)
     return entity, entity.key.id
 
 
-def update_user(user, dataControl, age, country, gender, profilic):
+def add_profilic(user, PROLIFIC_PID, STUDY_ID, SESSION_ID):
     user.update({
-        'country': country,
-        'age': age,
-        'gender': gender,
-        'dataControl': dataControl,
-        'profilic': profilic
+        'PROLIFIC_PID': PROLIFIC_PID,
+        'STUDY_ID': STUDY_ID,
+        'SESSION_ID': SESSION_ID
+    })
+    datastore_client.put(user)
+    return user
+
+
+def update_user(user, body):
+    user.update({
+        'country': body.get("country"),
+        'age': body.get("age"),
+        'gender': body.get("gender"),
+        'education': body.get("education"),
+        'work': body.get("work"),
+        'techknow': body.get("techknow"),
+        'completedAt': datetime.datetime.now()
+    })
+    datastore_client.put(user)
+    return user
+
+
+def update_data_control(user, body):
+    user.update({
+        'useForRecommendations': body.get("useForRecommendations"),
+        'useForImprovementsForOthers': body.get("useForImprovementsForOthers"),
+        'useForSharing': body.get("useForSharing"),
     })
     datastore_client.put(user)
     return user
@@ -125,7 +148,22 @@ def store_selection(entity, selection):
 
 def store_survey(user, survey):
     user.update({
-        'survey': survey
+        'q0': survey.get("q0"),
+        'q1': survey.get("q1"),
+        'q2': survey.get("q2"),
+        'q3': survey.get("q3"),
+        'q4': survey.get("q4"),
+        'q5': survey.get("q5"),
+        'q6': survey.get("q6"),
+        'q7': survey.get("q7"),
+        'q8': survey.get("q8"),
+        'q9': survey.get("q9"),
+        'q10': survey.get("q10"),
+        'q11': survey.get("q11"),
+        'q12': survey.get("q12"),
+        'q13': survey.get("q13"),
+        'q14': survey.get("q14"),
+        'q15': survey.get("q15")
     })
     datastore_client.put(user)
 
@@ -153,8 +191,8 @@ def top_list():
     return jsonify(top_list_json)
 
 
-@app.route('/update-data', methods=["POST"])
-def updateUserData():
+@app.route('/update-from-explainer', methods=["POST"])
+def profilic():
     userID = request.headers.get('userID')
     if userID and int(userID):
         user = get_user_from_id(userID)
@@ -163,14 +201,15 @@ def updateUserData():
         return jsonify("ERROR COULD NOT FIND USER")
 
     body = request.get_json()
-    user = update_user(
-        user,
-        body.get("dataControl"),
-        body.get("age"),
-        body.get("country"),
-        body.get("gender"),
-        body.get('profilic')
-    )
+    PROLIFIC_PID = body.get("PROLIFIC_PID")
+    STUDY_ID = body.get("STUDY_ID")
+    SESSION_ID = body.get("SESSION_ID")
+    if PROLIFIC_PID and STUDY_ID and SESSION_ID:
+        user = add_profilic(user, PROLIFIC_PID, STUDY_ID, SESSION_ID)
+
+    dataControl = body.get("dataControl")
+    user = update_data_control(user, dataControl)
+
     user.update({'userID': userID})
     res = jsonify(user)
     return res
@@ -270,7 +309,7 @@ def recommend():
     return res
 
 
-@app.route('/update-survey', methods=["POST"])
+@app.route('/update', methods=["POST"])
 def updateSurveyPost():
     userID = request.headers.get('userID')
     if userID and int(userID):
@@ -281,14 +320,18 @@ def updateSurveyPost():
     if user is None:
         return jsonify("ERROR COULD NOT FIND USER")
 
-    survey = request.get_json().get('survey')
+    body = request.get_json()
+    survey = body.get('survey')
     if survey is None:
         return jsonify("ERROR COULD NOT FIND SURVEY DATA")
 
     store_survey(user, survey)
-    increment_finish_count()
+    user = update_user(user, body)
+    user.update({'userID': userID})
+    res = jsonify(user)
 
-    return jsonify("OK")
+    increment_finish_count()
+    return res
 
 
 if __name__ == '__main__':
