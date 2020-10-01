@@ -1,0 +1,560 @@
+[
+  {
+    "age": "1",
+    "completedAt": "Thu, 01 Oct 2020 09:50:57 GMT",
+    "country": "DK",
+    "createdAt": "Thu, 01 Oct 2020 09:50:11 GMT",
+    "education": "Ph.D. or higher",
+    "gender": "Female",
+    "q0": "1",
+    "q1": "1",
+    "q10": "1",
+    "q11": "1",
+    "q12": "1",
+    "q13": "1",
+    "q14": "1",
+    "q15": "1",
+    "q16": "1",
+    "q2": "1",
+    "q3": "1",
+    "q4": "1",
+    "q5": "1",
+    "q6": "1",
+    "q7": "1",
+    "q8": "1",
+    "q9": "1",
+    "selectedMovies": [
+      {
+        "movieId": 2129,
+        "poster_path": "/7qHwh3mFJs7ldwzGSWsBLmgecfj.jpg",
+        "title": "Hoop Dreams (1994)"
+      },
+      {
+        "movieId": 916,
+        "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "title": "Spider-Man: Into the Spider-Verse (2018)"
+      },
+      {
+        "movieId": 757,
+        "poster_path": "/1WicOAzPkpBWajjvcFazPLIuu0A.jpg",
+        "title": "Grand Budapest Hotel, The (2014)"
+      },
+      {
+        "movieId": 724,
+        "poster_path": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+        "title": "Django Unchained (2012)"
+      },
+      {
+        "movieId": 1686,
+        "poster_path": "/8MgjEszEYY6tW4aNsFMo7zYjytR.jpg",
+        "title": "Moon (2009)"
+      }
+    ],
+    "techknow": "I am very knowledgeable",
+    "testGroup": "d",
+    "useForImprovementsForOthers": false,
+    "useForRecommendations": false,
+    "useForSharing": true,
+    "work": "Retired"
+  },
+  {
+    "age": "5",
+    "completedAt": "Thu, 01 Oct 2020 09:49:45 GMT",
+    "country": "DK",
+    "createdAt": "Thu, 01 Oct 2020 09:49:13 GMT",
+    "education": "No schooling completed",
+    "gender": "Other",
+    "q0": "5",
+    "q1": "5",
+    "q10": "5",
+    "q11": "5",
+    "q12": "5",
+    "q13": "5",
+    "q14": "5",
+    "q15": "5",
+    "q16": "5",
+    "q2": "5",
+    "q3": "5",
+    "q4": "5",
+    "q5": "5",
+    "q6": "5",
+    "q7": "5",
+    "q8": "5",
+    "q9": "5",
+    "selectedMovies": [
+      {
+        "movieId": 1717,
+        "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+        "title": "Green Mile, The (1999)"
+      },
+      {
+        "movieId": 805,
+        "poster_path": "/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+        "title": "The Martian (2015)"
+      },
+      {
+        "movieId": 292,
+        "poster_path": "/8kSerJrhrJWKLk1LViesGcnrUPE.jpg",
+        "title": "Lock, Stock & Two Smoking Barrels (1998)"
+      },
+      {
+        "movieId": 565,
+        "poster_path": "/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+        "title": "No Country for Old Men (2007)"
+      },
+      {
+        "movieId": 3608,
+        "poster_path": "/Ao9XSIsvfaxA3Kj6NyzbDcEdav.jpg",
+        "title": "Spotlight (2015)"
+      }
+    ],
+    "techknow": "I have a vague idea of the technical details",
+    "testGroup": "c",
+    "useForImprovementsForOthers": true,
+    "useForRecommendations": true,
+    "useForSharing": true,
+    "work": "Employed full time"
+  },
+  {
+    "age": "23",
+    "completedAt": "Thu, 01 Oct 2020 10:11:00 GMT",
+    "country": "TV",
+    "createdAt": "Thu, 01 Oct 2020 10:10:07 GMT",
+    "education": "Master's degree",
+    "gender": "Other",
+    "q0": "2",
+    "q1": "3",
+    "q10": "2",
+    "q11": "3",
+    "q12": "2",
+    "q13": "3",
+    "q14": "2",
+    "q15": "3",
+    "q16": "2",
+    "q2": "2",
+    "q3": "3",
+    "q4": "2",
+    "q5": "3",
+    "q6": "2",
+    "q7": "3",
+    "q8": "2",
+    "q9": "3",
+    "selectedMovies": [
+      {
+        "movieId": 2697,
+        "poster_path": "/wzrrF5ct6gYLyUEGCjwn8f1fOdv.jpg",
+        "title": "Hunt, The (Jagten) (2012)"
+      },
+      {
+        "movieId": 245,
+        "poster_path": "/8RW2runSEc34IwKN2D1aPcJd2UL.jpg",
+        "title": "Batman Begins (2005)"
+      },
+      {
+        "movieId": 775,
+        "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+        "title": "Guardians of the Galaxy (2014)"
+      },
+      {
+        "movieId": 2664,
+        "poster_path": "/qbaIViX3tgWSTSFXbldq0ODMdi4.jpg",
+        "title": "Get Out (2017)"
+      },
+      {
+        "movieId": 73,
+        "poster_path": "/oYUZHYMwNKnE1ef4WE5Hw2a9OAY.jpg",
+        "title": "Apollo 13 (1995)"
+      },
+      {
+        "movieId": 2007,
+        "poster_path": "/7XLSwxpfpPoJyTdJVot6a42TS2V.jpg",
+        "title": "Help, The (2011)"
+      },
+      {
+        "movieId": 905,
+        "poster_path": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
+        "title": "Zootopia (2016)"
+      },
+      {
+        "movieId": 576,
+        "poster_path": "/jMiBBqk72VRo1Y39x2ZbbenEU3a.jpg",
+        "title": "In Bruges (2008)"
+      },
+      {
+        "movieId": 470,
+        "poster_path": "/nqiAoFnrmxREOXzeTy12L9OlsI9.jpg",
+        "title": "Shaun of the Dead (2004)"
+      },
+      {
+        "movieId": 1766,
+        "poster_path": "/mf4i9zZVXMmqWsEb9D0OAY7k3t.jpg",
+        "title": "Inside Man (2006)"
+      },
+      {
+        "movieId": 751,
+        "poster_path": "/yk4J4aewWYNiBhD49WD7UaBBn37.jpg",
+        "title": "Her (2013)"
+      },
+      {
+        "movieId": 439,
+        "poster_path": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+        "title": "Kill Bill: Vol. 1 (2003)"
+      },
+      {
+        "movieId": 130,
+        "poster_path": "/yVl7zidse4KiWtGMqHFtZCx4X3N.jpg",
+        "title": "Hunt for Red October, The (1990)"
+      },
+      {
+        "movieId": 133,
+        "poster_path": "/jW8w2QZnCSRblYWPc5FKAkS1cal.jpg",
+        "title": "Truman Show, The (1998)"
+      },
+      {
+        "movieId": 835,
+        "poster_path": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+        "title": "Blade Runner 2049 (2017)"
+      },
+      {
+        "movieId": 1326,
+        "poster_path": "/2oQVNN1Ql9pdNC8bi9pgR3YvekN.jpg",
+        "title": "Rosencrantz and Guildenstern Are Dead (1990)"
+      },
+      {
+        "movieId": 781,
+        "poster_path": "/2mxS4wUimwlLmI1xp6QW6NSU361.jpg",
+        "title": "Big Hero 6 (2014)"
+      },
+      {
+        "movieId": 3642,
+        "poster_path": "/zO0tjRnh9x2KuQWd7KhzdxbYaDN.jpg",
+        "title": "Inside Job (2010)"
+      },
+      {
+        "movieId": 830,
+        "poster_path": "/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg",
+        "title": "Logan (2017)"
+      },
+      {
+        "movieId": 526,
+        "poster_path": "/tFnTds88mCuLcLPBseK1kF2E3qv.jpg",
+        "title": "Little Miss Sunshine (2006)"
+      },
+      {
+        "movieId": 236,
+        "poster_path": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+        "title": "Incredibles, The (2004)"
+      },
+      {
+        "movieId": 664,
+        "poster_path": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+        "title": "Harry Potter and the Deathly Hallows: Part 1 (2010)"
+      },
+      {
+        "movieId": 1018,
+        "poster_path": "/rrBuGu0Pjq7Y2BWSI6teGfZzviY.jpg",
+        "title": "Heat (1995)"
+      },
+      {
+        "movieId": 842,
+        "poster_path": "/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+        "title": "Groundhog Day (1993)"
+      },
+      {
+        "movieId": 648,
+        "poster_path": "/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+        "title": "How to Train Your Dragon (2010)"
+      },
+      {
+        "movieId": 70,
+        "poster_path": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+        "title": "Toy Story (1995)"
+      },
+      {
+        "movieId": 3025,
+        "poster_path": "/pCURNjeomWbMSdiP64gj8NVVHTQ.jpg",
+        "title": "Room (2015)"
+      }
+    ],
+    "techknow": "I don't know any technical details",
+    "testGroup": "c",
+    "useForImprovementsForOthers": true,
+    "useForRecommendations": true,
+    "useForSharing": true,
+    "work": "Unemployed (not currently looking for job)"
+  },
+  {
+    "age": "55",
+    "completedAt": "Thu, 01 Oct 2020 10:12:00 GMT",
+    "country": "US",
+    "createdAt": "Thu, 01 Oct 2020 10:11:11 GMT",
+    "education": "High school",
+    "gender": "Other",
+    "q0": "1",
+    "q1": "1",
+    "q10": "1",
+    "q11": "1",
+    "q12": "1",
+    "q13": "1",
+    "q14": "1",
+    "q15": "1",
+    "q16": "1",
+    "q2": "1",
+    "q3": "1",
+    "q4": "1",
+    "q5": "1",
+    "q6": "1",
+    "q7": "1",
+    "q8": "1",
+    "q9": "1",
+    "selectedMovies": [
+      {
+        "movieId": 79,
+        "poster_path": "/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg",
+        "title": "Shawshank Redemption, The (1994)"
+      },
+      {
+        "movieId": 252,
+        "poster_path": "/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg",
+        "title": "Usual Suspects, The (1995)"
+      },
+      {
+        "movieId": 89,
+        "poster_path": "/lKb6h6LURE33I3GRFYgHBUfjwSU.jpg",
+        "title": "Schindler's List (1993)"
+      },
+      {
+        "movieId": 297,
+        "poster_path": "/k1lICEYRpJeFRIRfjxYwmpO9LTu.jpg",
+        "title": "Fight Club (1999)"
+      },
+      {
+        "movieId": 0,
+        "poster_path": "/pbL5p4YGsqx2xxhQmsW8qBSasdS.jpg",
+        "title": "Pulp Fiction (1994)"
+      },
+      {
+        "movieId": 274,
+        "poster_path": "/f8rOfzX9UuY4Zc39rljrRbjsWK3.jpg",
+        "title": "Goodfellas (1990)"
+      },
+      {
+        "movieId": 578,
+        "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "title": "Dark Knight, The (2008)"
+      },
+      {
+        "movieId": 795,
+        "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+        "title": "Avengers: Infinity War - Part I (2018)"
+      },
+      {
+        "movieId": 159,
+        "poster_path": "/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        "title": "Matrix, The (1999)"
+      },
+      {
+        "movieId": 260,
+        "poster_path": "/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
+        "title": "Silence of the Lambs, The (1991)"
+      },
+      {
+        "movieId": 654,
+        "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+        "title": "Inception (2010)"
+      },
+      {
+        "movieId": 344,
+        "poster_path": "/uprP8rtOgMYJQ2h3ldDFvGsaBgH.jpg",
+        "title": "Memento (2000)"
+      },
+      {
+        "movieId": 534,
+        "poster_path": "/jyAgiqVSx5fl0NNj7WoGGKweXrL.jpg",
+        "title": "Departed, The (2006)"
+      },
+      {
+        "movieId": 291,
+        "poster_path": "/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg",
+        "title": "American History X (1998)"
+      },
+      {
+        "movieId": 969,
+        "poster_path": "/kKpORM0G7xDvJGQiXpQ0wUp9Dwo.jpg",
+        "title": "Fargo (1996)"
+      },
+      {
+        "movieId": 295,
+        "poster_path": "/wby9315QzVKdW9BonAefg8jGTTb.jpg",
+        "title": "American Beauty (1999)"
+      },
+      {
+        "movieId": 270,
+        "poster_path": "/wRTCxYHx1d9diFFmOHQZT7CjdUV.jpg",
+        "title": "Wallace & Gromit: The Wrong Trousers (1993)"
+      },
+      {
+        "movieId": 1823,
+        "poster_path": "/w7WxNbb0mcWpwDMd3pJA7LQRfnt.jpg",
+        "title": "Intouchables (2011)"
+      },
+      {
+        "movieId": 202,
+        "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "title": "Lord of the Rings: The Fellowship of the Ring, The (2001)"
+      },
+      {
+        "movieId": 29,
+        "poster_path": "/slVnvaH6fpF22154vnjQJdXCVZd.jpg",
+        "title": "Amelie (Fabuleux destin d'Am\u00e9lie Poulain, Le) (2001)"
+      },
+      {
+        "movieId": 227,
+        "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "title": "Lord of the Rings: The Return of the King, The (2003)"
+      },
+      {
+        "movieId": 268,
+        "poster_path": "/AjTtJNumZyUDz33VtMlF1K8JPsE.jpg",
+        "title": "Reservoir Dogs (1992)"
+      },
+      {
+        "movieId": 758,
+        "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+        "title": "Interstellar (2014)"
+      },
+      {
+        "movieId": 537,
+        "poster_path": "/pvSESD7ujxWZwtYDb9l57qE0ywq.jpg",
+        "title": "Prestige, The (2006)"
+      }
+    ],
+    "techknow": "I have a good idea of the technical details",
+    "testGroup": "d",
+    "useForImprovementsForOthers": false,
+    "useForRecommendations": false,
+    "useForSharing": false,
+    "work": "Student"
+  },
+  {
+    "age": "99",
+    "completedAt": "Thu, 01 Oct 2020 10:09:19 GMT",
+    "country": "AE",
+    "createdAt": "Thu, 01 Oct 2020 10:08:10 GMT",
+    "education": "Elementary school",
+    "gender": "Other",
+    "q0": "1",
+    "q1": "2",
+    "q10": "2",
+    "q11": "3",
+    "q12": "4",
+    "q13": "5",
+    "q14": "1",
+    "q15": "2",
+    "q16": "5",
+    "q2": "3",
+    "q3": "4",
+    "q4": "5",
+    "q5": "1",
+    "q6": "2",
+    "q7": "3",
+    "q8": "5",
+    "q9": "1",
+    "selectedMovies": [
+      {
+        "movieId": 283,
+        "poster_path": "/48auuGpzl9KSZixAKwj8yKBNIv4.jpg",
+        "title": "Big Lebowski, The (1998)"
+      },
+      {
+        "movieId": 536,
+        "poster_path": "/6GnBsOIi1t4aGuLh3NF9TfU8u37.jpg",
+        "title": "Children of Men (2006)"
+      },
+      {
+        "movieId": 73,
+        "poster_path": "/oYUZHYMwNKnE1ef4WE5Hw2a9OAY.jpg",
+        "title": "Apollo 13 (1995)"
+      },
+      {
+        "movieId": 3642,
+        "poster_path": "/zO0tjRnh9x2KuQWd7KhzdxbYaDN.jpg",
+        "title": "Inside Job (2010)"
+      },
+      {
+        "movieId": 526,
+        "poster_path": "/tFnTds88mCuLcLPBseK1kF2E3qv.jpg",
+        "title": "Little Miss Sunshine (2006)"
+      },
+      {
+        "movieId": 1018,
+        "poster_path": "/rrBuGu0Pjq7Y2BWSI6teGfZzviY.jpg",
+        "title": "Heat (1995)"
+      }
+    ],
+    "techknow": "I am an expert",
+    "testGroup": "b",
+    "useForImprovementsForOthers": false,
+    "useForRecommendations": true,
+    "useForSharing": true,
+    "work": "Unemployed (currently looking for job)"
+  },
+  {
+    "age": "3",
+    "completedAt": "Thu, 01 Oct 2020 10:08:05 GMT",
+    "country": "DK",
+    "createdAt": "Thu, 01 Oct 2020 10:07:09 GMT",
+    "education": "Bachelor's degree",
+    "gender": "Male",
+    "q0": "3",
+    "q1": "3",
+    "q10": "3",
+    "q11": "3",
+    "q12": "3",
+    "q13": "3",
+    "q14": "3",
+    "q15": "3",
+    "q16": "3",
+    "q2": "3",
+    "q3": "3",
+    "q4": "3",
+    "q5": "3",
+    "q6": "3",
+    "q7": "3",
+    "q8": "3",
+    "q9": "3",
+    "selectedMovies": [
+      {
+        "movieId": 1717,
+        "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+        "title": "Green Mile, The (1999)"
+      },
+      {
+        "movieId": 805,
+        "poster_path": "/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+        "title": "The Martian (2015)"
+      },
+      {
+        "movieId": 82,
+        "poster_path": "/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg",
+        "title": "Forrest Gump (1994)"
+      },
+      {
+        "movieId": 2697,
+        "poster_path": "/wzrrF5ct6gYLyUEGCjwn8f1fOdv.jpg",
+        "title": "Hunt, The (Jagten) (2012)"
+      },
+      {
+        "movieId": 283,
+        "poster_path": "/48auuGpzl9KSZixAKwj8yKBNIv4.jpg",
+        "title": "Big Lebowski, The (1998)"
+      }
+    ],
+    "techknow": "I am very knowledgeable",
+    "testGroup": "a",
+    "useForImprovementsForOthers": true,
+    "useForRecommendations": true,
+    "useForSharing": true,
+    "work": "Student"
+  }
+]

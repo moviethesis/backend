@@ -192,6 +192,16 @@ def top_list():
     return jsonify(top_list_json)
 
 
+@app.route('/generate-data')
+def gendata():
+    if not app.debug:
+        return jsonify("NO!")
+
+    query = datastore_client.query(kind='user')
+    kinds = [entity for entity in query.fetch()]
+    data  = jsonify(kinds)
+    return data
+
 @app.route('/update-from-explainer', methods=["POST"])
 def profilic():
     userID = request.headers.get('userID')
@@ -202,6 +212,7 @@ def profilic():
         return jsonify("ERROR COULD NOT FIND USER")
 
     body = request.get_json()
+    print(body)
     PROLIFIC_PID = body.get("PROLIFIC_PID")
     STUDY_ID = body.get("STUDY_ID")
     SESSION_ID = body.get("SESSION_ID")
