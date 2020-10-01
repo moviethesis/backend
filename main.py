@@ -163,7 +163,8 @@ def store_survey(user, survey):
         'q12': survey.get("q12"),
         'q13': survey.get("q13"),
         'q14': survey.get("q14"),
-        'q15': survey.get("q15")
+        'q15': survey.get("q15"),
+        'q16': survey.get("q16")
     })
     datastore_client.put(user)
 
